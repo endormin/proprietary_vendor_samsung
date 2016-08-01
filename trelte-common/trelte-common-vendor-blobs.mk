@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/trelte-common/proprietary/bin/argosd:system/bin/argosd \
+    vendor/samsung/trelte-common/proprietary/bin/tzdatacheck:system/bin/tzdatacheck \
     vendor/samsung/trelte-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
     vendor/samsung/trelte-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
     vendor/samsung/trelte-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
