@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/firmware/bcm4359C0_V0033.0058_semco.hcd:system/vendor/firmware/bcm4359C0_V0033.0058_semco.hcd \
     vendor/samsung/hero2qltechn/proprietary/vendor/firmware/bcm4359C0_V0033.0059_murata.hcd:system/vendor/firmware/bcm4359C0_V0033.0059_murata.hcd \
+    vendor/samsung/hero2qltechn/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/hero2qltechn/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/samsung/hero2qltechn/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/samsung/hero2qltechn/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
@@ -140,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/samsung/hero2qltechn/proprietary/bin/ipacm:system/bin/ipacm \
     vendor/samsung/hero2qltechn/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib/hw/keystore.mdfpp.so:system/lib/hw/keystore.mdfpp.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
@@ -151,9 +153,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libmmcamera2_companion_s5k4e6xx_cc.so:system/vendor/lib/libmmcamera2_companion_s5k4e6xx_cc.so \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/ois_fw_dom.bin:system/etc/firmware/ois_fw_dom.bin \
     vendor/samsung/hero2qltechn/proprietary/etc/firmware/ois_fw_sec.bin:system/etc/firmware/ois_fw_sec.bin \
+    vendor/samsung/hero2qltechn/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/samsung/hero2qltechn/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/samsung/hero2qltechn/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/samsung/hero2qltechn/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -186,7 +191,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/hero2qltechn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/hero2qltechn/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/hero2qltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/hero2qltechn/proprietary/framework/telephony-common.jar:system/framework/telephony-common.jar \
     vendor/samsung/hero2qltechn/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/hero2qltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
@@ -222,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
@@ -248,9 +257,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/hw/sensorhubs.msm8996.so:system/vendor/lib64/hw/sensorhubs.msm8996.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
@@ -271,6 +282,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/hero2qltechn/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/hero2qltechn/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
