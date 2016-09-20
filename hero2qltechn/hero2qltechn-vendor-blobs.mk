@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -88,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
@@ -100,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
@@ -110,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
@@ -147,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/keystore.mdfpp.so:system/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/samsung/hero2qltechn/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libmmcamera2_companion_imx260.so:system/vendor/lib/libmmcamera2_companion_imx260.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libmmcamera2_companion_s5k2p2xx.so:system/vendor/lib/libmmcamera2_companion_s5k2p2xx.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libmmcamera2_companion_s5k2l1sx.so:system/vendor/lib/libmmcamera2_companion_s5k2l1sx.so \
@@ -516,4 +522,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/samsung/hero2qltechn/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/samsung/hero2qltechn/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    vendor/samsung/hero2qltechn/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so
+    vendor/samsung/hero2qltechn/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/samsung/hero2qltechn/proprietary//vendor/firmware/libpn551_fw.so:system//vendor/firmware/libpn551_fw.so
