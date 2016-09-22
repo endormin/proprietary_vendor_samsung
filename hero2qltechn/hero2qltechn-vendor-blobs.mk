@@ -49,7 +49,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/samsung/hero2qltechn/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -201,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/hero2qltechn/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/hero2qltechn/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/hero2qltechn/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/hero2qltechn/proprietary/framework/telephony-common.jar:system/framework/telephony-common.jar \
     vendor/samsung/hero2qltechn/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/hero2qltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
@@ -249,6 +262,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/samsung/hero2qltechn/proprietary/bin/sensorservice:system/bin/sensorservice \
+    vendor/samsung/hero2qltechn/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/samsung/hero2qltechn/proprietary/bin/mmi:system/bin/mmi \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/samsung/hero2qltechn/proprietary/vendor/lib/mmi_sensor.so:system/vendor/lib/mmi_sensor.so \
@@ -523,4 +538,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hero2qltechn/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/samsung/hero2qltechn/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/samsung/hero2qltechn/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/samsung/hero2qltechn/proprietary//vendor/firmware/libpn551_fw.so:system//vendor/firmware/libpn551_fw.so
+    vendor/samsung/hero2qltechn/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
+    vendor/samsung/hero2qltechn/proprietary/bin/factory.adsp:system/bin/factory.adsp \
+    vendor/samsung/hero2qltechn/proprietary/bin/servicemanager:system/bin/servicemanager \
+    vendor/samsung/hero2qltechn/proprietary/bin/ip:system/bin/ip \
+    vendor/samsung/hero2qltechn/proprietary/bin/iop:system/bin/iop \
+    vendor/samsung/hero2qltechn/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/hero2qltechn/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/samsung/hero2qltechn/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+    vendor/samsung/hero2qltechn/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
+    vendor/samsung/hero2qltechn/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/hero2qltechn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
+    vendor/samsung/hero2qltechn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/samsung/hero2qltechn/proprietary/bin/smdexe:system/bin/smdexe \
+    vendor/samsung/hero2qltechn/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/hero2qltechn/proprietary/bin/connfwexe:system/bin/connfwexe
